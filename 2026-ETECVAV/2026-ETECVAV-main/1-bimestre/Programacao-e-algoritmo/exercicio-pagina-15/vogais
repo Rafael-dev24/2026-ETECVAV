@@ -1,0 +1,29 @@
+/*
+* Arquivo: triangulo.por
+* Instituição: EtecVAV - Vasco Antonio Venchiarutti
+* Data: 18/03/2026
+* Autor: João vitor alves e carlos eduardo ferraguti
+* Descrição:  Ler um caractere. Verificar se o caractere lido é uma vogal. Exibir o
+caractere lido com a informação se é ou não uma vogal.
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia caractere
+		escreva(" digite o caractere:   ")
+		leia(caractere)
+		se(caractere == "a")
+		escreva(" seu caractere é uma vogal") 
+		se(caractere == "e")
+		escreva(" seu caractere é uma vogal") 
+		se(caractere == "i")
+		escreva(" seu caractere é uma vogal") 
+		se(caractere == "o")
+		escreva(" seu caractere é uma vogal") 
+		se(caractere == "u")
+		escreva(" seu caractere é uma vogal") 
+		senao
+		escreva(" seu caractere não é uma vogal   ")
+	}
+}

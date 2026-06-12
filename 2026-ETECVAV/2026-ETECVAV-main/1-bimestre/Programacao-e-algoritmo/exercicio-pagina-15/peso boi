@@ -1,0 +1,25 @@
+/*
+* Arquivo: triangulo.por
+* Instituição: EtecVAV - Vasco Antonio Venchiarutti
+* Data: 18/03/2026
+* Autor: João vitor alves e carlos eduardo ferraguti
+* Descrição: Ler o peso de um boi e o percentual de engorda. Calcular e exibir o novo peso do boi.
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro pesoB, percentualCRE,engordou,pesoFIN
+	    escreva("calclo do peso do boi \n\n")
+	    escreva("qual peso do boi? \n\n ")
+	    escreva("quantos porcento ele engordou? \n\n ")
+	    leia (pesoB, percentualCRE)
+	    engordou = pesoB* percentualCRE/100
+	    pesoFIN = engordou +pesoB
+         escreva("o peso do boi é de ",pesoFIN,"")
+      
+
+	}
+}

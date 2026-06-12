@@ -1,0 +1,27 @@
+/*
+* Arquivo: triangulo.por
+* Instituição: EtecVAV - Vasco Antonio Venchiarutti
+* Data: 18/03/2026
+* Autor: João vitor alves e carlos eduardo ferraguti
+* Descrição: O motorista de aplicativo abastece o tanque do seu carro com um determinado valor em reais. Ler o preço do litro de combustível e o valor que pretende abastecer. Calcular a quantidade de litro no abastecimento e exibir os dados lidos e o valor calculado. 
+*
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro Pgasolina, litros, reais
+	    escreva("valor abastecido \n\n\n")
+	    escreva("quantos reais você tem para abastecer o carro? \n") 
+	    escreva("qual o valor do combustivel? \n")
+	   
+	    leia(reais, Pgasolina)
+	    litros = reais/Pgasolina
+      
+        escreva("você pode abastecer ",litros," litros com ",reais," reais \n\n\n")
+        
+	}
+}
+	
