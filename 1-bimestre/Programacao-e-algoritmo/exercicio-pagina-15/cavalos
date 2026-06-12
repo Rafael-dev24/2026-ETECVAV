@@ -1,0 +1,25 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: cavalos.por
+* Autor:João vitor alves e Carlos eduardo ferraguti
+* Descrição: 
+* O Haras Cavalos Brilhantes compra cavalos com frequência. Ler a quantidade de cavalos
+* adquiridos recentemente, calcular a quantidade de ferraduras necessárias para os novos cavalos e exibir
+* a quantidade de novos cavalos e sua respectiva quantidade de ferraduras.
+*/
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro qtd_cavalos, ferraduras
+	    escreva("Calculo do número de Ferraduras\n\n\n")
+	    escreva("Quantos Cavalos foram comprados? ")
+	    Leia(qtd_cavalos)
+	    ferraduras = 4*qtd_cavalos
+        escreva("\n\nA quantidade de cavalos adquiridas é : ",qtd_cavalos)
+        escreva("São necessárias: ",ferraduras," ferraduras")
+
+	}
+}

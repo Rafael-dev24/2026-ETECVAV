@@ -1,0 +1,34 @@
+/*
+* Arquivo: triangulo.por
+* Instituição: EtecVAV - Vasco Antonio Venchiarutti
+* Data: 18/03/2026
+* Autor: João vitor alves e carlos eduardo ferraguti
+* Descrição: O caixa do supermercado recebe uma certa quantidade de moedas por
+dia. Ler a quantidade de moedas recebidas de acordo com cada um dos
+valores 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real. Calcular e
+exibir o valor recebido de cada um dos tipos de moeda e a soma total em
+moedas.
+* 
+*
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro moeda1,moeda10,moeda25,moeda50,moeda100,Vtotal,totalM
+	    escreva("calclo de moedas \n\n")
+	    escreva("quantas moedas de 1 cent voce tem? \n\n ")
+	    escreva("quantas moedas de 10 cent voce tem? \n\n ")
+	    escreva("quantas moedas de 25 cent voce tem? \n\n ")
+	    escreva("quantas moedas de 50 cent voce tem? \n\n ")
+	    escreva("quantas moedas de 100 cent voce tem? \n\n ")
+	leia (moeda1,moeda10,moeda25,moeda50,moeda100)
+     Vtotal=(moeda1*0.01)+(moeda10*0.10)+(moeda25*0.25)+(moeda50*0.50)+(moeda100)
+	totalM=(moeda1)+(moeda10)+(moeda25)+(moeda50)+(moeda100) 
+         escreva("o valor total é de R$",Vtotal,"\n\n")
+         escreva("o total de moedas é de ",totalM,"")
+
+	}
+}

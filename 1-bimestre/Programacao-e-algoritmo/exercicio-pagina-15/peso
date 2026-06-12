@@ -1,0 +1,25 @@
+/*
+* Arquivo: triangulo.por
+* Instituição: EtecVAV - Vasco Antonio Venchiarutti
+* Data: 18/03/2026
+* Autor: João vitor alves e carlos eduardo ferraguti
+* Descrição:Ler o peso de uma pessoa em quilos, calcular e mostrar o peso em gramas. 
+* 
+*
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro pesoK,pesoG
+	    escreva("cauculo do seu peso em gramas \n\n")
+	    escreva("quantos quilos voce tem? ")
+	    leia (pesoK)
+	    pesoG = pesoK*1000
+         escreva("seu peso em gramas é de ",pesoG,"")
+      
+
+	}
+}

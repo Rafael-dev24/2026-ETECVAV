@@ -1,0 +1,31 @@
+/*
+* Arquivo: triangulo.por
+* Instituição: EtecVAV - Vasco Antonio Venchiarutti
+* Data: 18/03/2026
+* Autor: João vitor alves e carlos eduardo ferraguti
+* Descrição: Ler 4 notas, calcular a média ponderada com os pesos 1, 2, 3 e 4 respectivamente e exibir as notas e o resultado da média. 
+* 
+*
+*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	    inteiro nota1,nota2,nota3,nota4, resultado 
+	    escreva("calculo da media dos alunos \n\n\n")
+	    escreva("qual sua 1 primeira nota? \n")
+	    escreva("qual sua 2 primeira nota? \n")
+	    escreva("qual sua 3 primeira nota? \n")
+	    escreva("qual sua 4 primeira nota? \n")
+
+	    leia(nota1,nota2,nota3,nota4)
+	    resultado = (nota1*1 + nota2*2 + nota3*3 + nota4*4)/10
+       
+        escreva("a sua media é",resultado,"\n\n\n")
+        
+	}
+}
+	
+	
