@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função que calcula a potência
+
 int potencia(int base, int expoente) {
     int resultado = 1;
 
