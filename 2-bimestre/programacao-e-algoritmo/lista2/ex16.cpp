@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função que retorna o índice do menor valor
+
 int indiceMenor(int vetor[], int tamanho) {
     int indice = 0;
 
@@ -14,7 +14,7 @@ int indiceMenor(int vetor[], int tamanho) {
     return indice;
 }
 
-// Função que retorna o índice do maior valor
+
 int indiceMaior(int vetor[], int tamanho) {
     int indice = 0;
 
@@ -30,7 +30,7 @@ int indiceMaior(int vetor[], int tamanho) {
 int main() {
     int vetor[15];
 
-    // Leitura dos 15 números
+    
     for (int i = 0; i < 15; i++) {
         cout << "Digite o numero " << i + 1 << ": ";
         cin >> vetor[i];
