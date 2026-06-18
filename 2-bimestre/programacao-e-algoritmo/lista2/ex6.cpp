@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função que retorna o dia da semana
+
 string diaSemana(int numero) {
     switch (numero) {
         case 1:
