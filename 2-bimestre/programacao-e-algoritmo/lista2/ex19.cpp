@@ -9,7 +9,7 @@ int main() {
     int qtdPares = 0;
     int qtdImpares = 0;
 
-    // Leitura dos 10 números
+    
     for (int i = 0; i < 10; i++) {
         cout << "Digite o numero " << i + 1 << ": ";
         cin >> numeros[i];
@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    // Ordenação dos pares
+    
     for (int i = 0; i < qtdPares - 1; i++) {
         for (int j = i + 1; j < qtdPares; j++) {
             if (pares[i] > pares[j]) {
@@ -34,7 +34,7 @@ int main() {
         }
     }
 
-    // Ordenação dos ímpares
+    
     for (int i = 0; i < qtdImpares - 1; i++) {
         for (int j = i + 1; j < qtdImpares; j++) {
             if (impares[i] > impares[j]) {
@@ -45,7 +45,7 @@ int main() {
         }
     }
 
-    // Soma dos elementos dos dois vetores
+    
     int tamanhoSoma;
 
     if (qtdPares < qtdImpares)
@@ -57,7 +57,7 @@ int main() {
         soma[i] = pares[i] + impares[i];
     }
 
-    // Exibição dos vetores
+   
     cout << "\nVetor de Pares:\n";
     for (int i = 0; i < qtdPares; i++) {
         cout << pares[i] << " ";
