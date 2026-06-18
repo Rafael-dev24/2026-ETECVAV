@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função que conta quantas vezes uma letra aparece no vetor
+
 int contarOcorrencias(char vetor[], int tamanho, char letra) {
     int quantidade = 0;
 
@@ -18,7 +18,7 @@ int main() {
     char letras[20];
     char letraProcurada;
 
-    // Leitura das 20 letras
+    
     for (int i = 0; i < 20; i++) {
         cout << "Digite a letra " << i + 1 << ": ";
         cin >> letras[i];
