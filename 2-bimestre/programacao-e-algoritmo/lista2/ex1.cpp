@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função que verifica se o número é ímpar
+
 bool ehImpar(int num) {
     return num % 2 != 0;
 }
