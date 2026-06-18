@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função que verifica se uma letra é vogal
+
 bool ehVogal(char letra) {
     letra = tolower(letra);
 
@@ -12,15 +12,15 @@ bool ehVogal(char letra) {
 
 int main() {
     char letras[20];
-    int vogais[5] = {0, 0, 0, 0, 0}; // a, e, i, o, u
+    int vogais[5] = {0, 0, 0, 0, 0}; 
 
-    // Leitura das 20 letras
+    
     for (int i = 0; i < 20; i++) {
         cout << "Digite a letra " << i + 1 << ": ";
         cin >> letras[i];
     }
 
-    // Contagem das vogais
+    
     for (int i = 0; i < 20; i++) {
         char letra = tolower(letras[i]);
 
@@ -45,7 +45,7 @@ int main() {
         }
     }
 
-    // Exibição do vetor de contagem
+    
     cout << "\nQuantidade de cada vogal:\n";
     cout << "a: " << vogais[0] << endl;
     cout << "e: " << vogais[1] << endl;
