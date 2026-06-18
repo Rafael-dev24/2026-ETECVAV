@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// Função para peso ideal masculin
+
 float pesoMasculino(float altura) {
     return (72.7 * altura) - 58;
 }
 
-// Função para peso ideal feminino
+
 float pesoFeminino(float altura) {
     return (62.1 * altura) - 44.7;
 }
