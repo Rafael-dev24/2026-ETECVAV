@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// Função que verifica se a palavra é palíndromo
+
 bool ehPalindromo(string palavra) {
     int inicio = 0;
     int fim = palavra.length() - 1;
