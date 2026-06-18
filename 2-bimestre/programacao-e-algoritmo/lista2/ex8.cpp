@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função que calcula a área do círculo
+
 double calcularArea(double raio) {
     const double PI = 3.14159;
     return PI * raio * raio;
