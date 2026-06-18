@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// Função que substitui as vogais por *
+
 string substituirVogais(string palavra) {
     for (int i = 0; i < palavra.length(); i++) {
         if (palavra[i] == 'a' || palavra[i] == 'e' ||
