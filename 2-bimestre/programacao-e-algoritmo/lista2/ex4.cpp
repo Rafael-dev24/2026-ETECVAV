@@ -1,22 +1,22 @@
 #include <iostream>
 using namespace std;
 
-// Função de adição
+
 int adicionar(int a, int b) {
     return a + b;
 }
 
-// Função de subtração
+
 int subtrair(int a, int b) {
     return a - b;
 }
 
-// Função de multiplicação
+
 int multiplicar(int a, int b) {
     return a * b;
 }
 
-// Função de divisão
+
 float dividir(int a, int b) {
     return (float)a / b;
 }
