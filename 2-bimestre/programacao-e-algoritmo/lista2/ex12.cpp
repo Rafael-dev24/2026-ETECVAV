@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Função para contar números pares
+
 int contarPares(int vetor[], int tamanho) {
     int quantidade = 0;
 
@@ -14,7 +14,7 @@ int contarPares(int vetor[], int tamanho) {
     return quantidade;
 }
 
-// Função para contar números ímpares
+
 int contarImpares(int vetor[], int tamanho) {
     int quantidade = 0;
 
@@ -30,7 +30,7 @@ int contarImpares(int vetor[], int tamanho) {
 int main() {
     int vetor[15];
 
-    // Leitura dos números
+    
     for (int i = 0; i < 15; i++) {
         cout << "Digite o numero " << i + 1 << ": ";
         cin >> vetor[i];
