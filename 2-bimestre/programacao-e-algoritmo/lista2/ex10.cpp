@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// Função para contar vogais
+
 int contarVogais(string nome) {
     int qtd = 0;
 
@@ -18,7 +18,7 @@ int contarVogais(string nome) {
     return qtd;
 }
 
-// Função para contar consoantes
+
 int contarConsoantes(string nome) {
     int qtd = 0;
 
