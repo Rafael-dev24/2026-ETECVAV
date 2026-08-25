@@ -50,7 +50,6 @@ projeto/
 └── README.md
 ```
 
-> 💡 A pasta `__pycache__` (arquivos `.pyc`) é gerada automaticamente pelo Python ao executar os scripts e não precisa ser versionada — considere adicioná-la a um `.gitignore`.
 
 ## 📝 Observações
 
