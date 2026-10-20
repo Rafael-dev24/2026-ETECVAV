@@ -1,0 +1,57 @@
+:root {
+    --vinho: #550000;
+    --dourado: #c9a227;
+    --creme: #f0e68c;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background: var(--vinho);
+}
+
+.titulo {
+    font-family: "Prata", serif;
+    color: var(--creme);
+}
+
+.hero-card {
+    background: #000;
+    border-left: 8px solid var(--dourado);
+    border-radius: .5rem;
+}
+
+.tag-hero {
+    background: rgba(201, 162, 39, .2);
+    color: var(--creme);
+    font-weight: 600;
+}
+
+.btn-ouro {
+    background: var(--dourado);
+    border-color: var(--dourado);
+    color: #000;
+    font-weight: 700;
+}
+
+.btn-ouro:hover {
+    background: var(--creme);
+    border-color: var(--creme);
+    color: #000;
+}
+
+.btn-borda-ouro {
+    border: 2px solid var(--dourado);
+    color: var(--creme);
+    font-weight: 700;
+}
+
+.btn-borda-ouro:hover {
+    background: var(--dourado);
+    color: #000;
+}
+
+.footer-ascra {
+    background: #000;
+    border-top: 4px solid var(--dourado);
+  }
+
