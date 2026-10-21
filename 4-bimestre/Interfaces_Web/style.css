@@ -1,0 +1,241 @@
+:root {
+    --vinho: #550000;
+    --dourado: #c9a227;
+    --creme: #f0e68c;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background: var(--vinho);
+}
+
+.titulo {
+    font-family: "Prata", serif;
+    color: var(--creme);
+}
+
+.hero-card {
+    background: #000;
+    border-left: 8px solid var(--dourado);
+    border-radius: .5rem;
+}
+
+.tag-hero {
+    background: rgba(201, 162, 39, .2);
+    color: var(--creme);
+    font-weight: 600;
+}
+
+.btn-ouro {
+    background: var(--dourado);
+    border-color: var(--dourado);
+    color: #000;
+    font-weight: 700;
+}
+
+.btn-ouro:hover {
+    background: var(--creme);
+    border-color: var(--creme);
+    color: #000;
+}
+
+.btn-borda-ouro {
+    border: 2px solid var(--dourado);
+    color: var(--creme);
+    font-weight: 700;
+}
+
+.btn-borda-ouro:hover {
+    background: var(--dourado);
+    color: #000;
+}
+
+.footer-ascra {
+    background: #000;
+    border-top: 4px solid var(--dourado);
+  }
+
+body {
+    background-color: #410000;
+    margin: 0;
+}
+
+
+.banner-valorant {
+    min-height: 450px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(20, 0, 0, 0.95),
+            rgba(40, 0, 0, 0.55),
+            rgba(40, 0, 0, 0.2)
+        ),
+        url("./img/wp12672375-valorant-wallpapers.jpg")
+        center / cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    color: white;
+}
+
+.banner-conteudo {
+    max-width: 600px;
+}
+
+.banner-conteudo .subtitulo {
+    color: #ff4057;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.banner-conteudo h1 {
+    font-size: clamp(38px, 5vw, 64px);
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.banner-conteudo p {
+    font-size: 17px;
+    color: #dddddd;
+    line-height: 1.7;
+}
+
+
+.btn-ascra {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #ff4057;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-ascra:hover {
+    background-color: #d9233b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+.sobre-valorant {
+    padding: 60px 8%;
+    color: white;
+    text-align: center;
+}
+
+.sobre-valorant h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre-valorant h2 span {
+    color: #ff4057;
+}
+
+.sobre-valorant p {
+    max-width: 800px;
+    margin: auto;
+    color: #dddddd;
+    line-height: 1.8;
+}
+
+
+.informacoes-ascra {
+    padding: 20px 8% 70px;
+}
+
+.card-ascra {
+    height: 100%;
+    padding: 28px 20px;
+    text-align: center;
+    background-color: #260000;
+    border: 1px solid #642020;
+    border-radius: 10px;
+    
+    transition: 0.5s;
+    box-shadow: 10px 10px black;
+}
+
+.card-ascra:hover {
+    transform: translateY(-5px);
+    border-color: #ff4057;
+}
+
+.card-ascra h3 {
+    color: #ff4057;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card-ascra p {
+    margin: 0;
+    color: #dddddd;
+}
+
+
+.footer-ascra {
+    background-color: #000000;
+    border-top: 3px solid #d4a72c;
+}
+
+
+@media (max-width: 768px) {
+    .banner-valorant {
+        min-height: 400px;
+        padding: 40px 7%;
+        background-position: center;
+    }
+
+    .banner-conteudo p {
+        font-size: 15px;
+    }
+
+    .sobre-valorant {
+        padding: 45px 7%;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 100px;
+    background-color: #260000;
+    border: 1px solid #642020;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    transition: 0.5s;
+    box-shadow: 10px 10px black;
+    color: #ff4057;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-bottom: 60px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    border-color: #ff4057;
+}
+
+.card>img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
